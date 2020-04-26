@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="imageViewSizeHeight">25dp</dimen>
+    <dimen name="imageViewSizeHeight">200dp</dimen>
     <dimen name="imageViewSizeWidth">25dp</dimen>
     <dimen name="marginStart">16dp</dimen>
     <dimen name="marginEnd">10dp</dimen>
     <dimen name="sizeForWeight">0dp</dimen>
-    <dimen name="CellLayoutHeight">100dp</dimen>
+    <dimen name="CellLayoutHeight">120dp</dimen>
 </resources>
