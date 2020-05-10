@@ -21,9 +21,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        linearLayoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
+        linearLayoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = linearLayoutManager
-        recyclerView.itemAnimator = DefaultItemAnimator()
         recyclerView.addItemDecoration(DividerItemDecoration(this, RecyclerView.VERTICAL))
         displayData()
         val mFab = findViewById<FloatingActionButton>(R.id.fab)

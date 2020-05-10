@@ -45,7 +45,6 @@ class PersonHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             .fit()
             .error(android.R.drawable.stat_notify_error)
             .into(itemView.itemPersonPicture)
-        itemView.itemPersonDescription.movementMethod = ScrollingMovementMethod()
         itemView.itemPersonPicture.setOnClickListener {
             if (person.quotes.size > 1) {
                 Toast.makeText(
